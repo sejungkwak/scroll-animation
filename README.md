@@ -1,6 +1,9 @@
 # scroll-animation
 
-<img width="1439" alt="Screenshot 2021-03-08 at 21 45 40" src="https://user-images.githubusercontent.com/71224770/110386209-ea849680-8057-11eb-8e5d-897dd7e53246.png">
+<img width="413" alt="Screenshot 2021-03-08 at 21 51 27" src="https://user-images.githubusercontent.com/71224770/110387060-05a3d600-8059-11eb-9559-bdf6e61aa80b.png">
+
+<img width="413" alt="Screenshot 2021-03-08 at 21 51 13" src="https://user-images.githubusercontent.com/71224770/110387088-0b012080-8059-11eb-92c5-6402719b7e69.png">
+
 
 project notes<br />
 
