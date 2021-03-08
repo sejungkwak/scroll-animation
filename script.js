@@ -20,4 +20,5 @@ function showVisible() {fromLeft.forEach(box => {
     });
 }
 
+showVisible(); //without this the first boxes wouldn't be visible when the page is loaded.
 window.onscroll = showVisible;
