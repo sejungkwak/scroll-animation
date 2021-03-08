@@ -17,3 +17,34 @@ box comes/goes from/to left and right side<br />
 
 3. JavaScript<br />
 schroll + set the trigger point<br />
+
+# Takeaway from the instructor
+
+1. HTML<br />
+h1 & boxes, no container or classL<br />
+
+2. CSS<br />
+transform: translateX(200%) <= set to 400% or it will show on wide screens<br />
+.box:nth-of-type(even) {transform: translate(-200%);}<br />
+with this pseudo class I don’t need to add additional class to the html elements.<br />
+
+3. Javascript<br />
+const boxes = document.querySelectorAll(‘.box’)
+
+Window.addEventListener(’scroll’, checkBoxes)
+
+checkBoxes()
+
+function checkBoxes() {
+const triggerBottom = window.innerHeight / 5 *4
+
+boxes.forEach(box => {
+Const boxTop = box.getBoundingClientRect().top
+
+If (boxTop < triggerBottom) {
+box.classList.add(’show’)
+} else {
+box.classList.remove(’show’)
+}
+
+})
