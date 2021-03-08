@@ -16,8 +16,7 @@ h1 {
     color: #f48b29;
 }
 
-.visible-boxes,
-.invisible-boxes {
+.boxes {
     display: flex;
     flex-direction: column;
     align-items: center;
